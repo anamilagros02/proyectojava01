@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link 
+	rel="stylesheet"
+	type="text/css" 
+	href="css/bootstrap.min.css">
+<script 
+	src="js/bootstrap.min.js">
+</script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-12">
+				<h1 class="text-center">Escuela de Tecnologias de la Información</h1>
+				<h2 class="text-center">Control de Acceso</h2>
+				<h3 class="text-center">Ingrese sus credenciales</h3>				
+			</div>
+			
+		</div>	
+		<div class="row">
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+				<form action="loginWeb.jr" method="post">
+					<div class="form-grop">
+						<input type="text" name="usuario" placeholder="Ingrese nombre de usuario" class="form-control">
+						<input type="password" name="clave" placeholder="Ingrese contraseña" class="form-control">						
+					</div>
+					<br>
+					<input type="submit" value="Enviar datos" name="enviar" class="btn btn-primary">	
+					<input type="reset" value="Restaurar datos" name="restaurar" class="btn btn-secondary">					
+				</form>
+			</div>
+			<div class="col-md-4">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
